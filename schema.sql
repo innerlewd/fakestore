@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS fakestore;
+DROP DATABASE IF EXISTS bamazon;
 
-CREATE DATABASE fakestore;
+CREATE DATABASE bamazon;
 
-USE fakestore;
+USE bamazon;
 
 CREATE TABLE department(
     department_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
